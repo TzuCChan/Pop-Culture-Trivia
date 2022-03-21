@@ -1,7 +1,5 @@
 # Project Overview
 
-![] (pop culture)
-
 In this project, I create a game called "Trivia", and the questions are based on pop culture. To start the game, the player can click the start button on the main page. Once the button is clicked, the first question will pop up, and there are four option for you to choose. Once you picked an answer, the page will take you to the next questions and so on. Once you finished all the 10 questions, your score will be displayed, and there is a restart button for you to replay the game.
 
 ## Development
