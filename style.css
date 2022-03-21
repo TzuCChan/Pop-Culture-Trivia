@@ -1,0 +1,122 @@
+body {
+  background-image: url("http://www.theinclusionsolution.me/wp-content/uploads/2014/10/Pop-Culture-620x330.jpg");
+  background-blend-mode: lighten;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: skyblue;
+  background-attachment: fixed;
+  text-align: center;
+  font-size: 30px;
+}
+
+h1 {
+  padding: 0px;
+  margin: 5%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 300%;
+  color: red;
+}
+
+h2 {
+  color: blue;
+  font-size: 30px;
+  margin: 5% 0 5% 0;
+}
+
+h3 {
+  color: black;
+  font-size: 100%;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 0;
+}
+
+.directions {
+  margin-bottom: auto;
+}
+
+.q {
+  height: 100vh;
+  font-size: 30px;
+}
+
+.display {
+  display: block;
+}
+
+#start {
+  color: black;
+  border: 0.1em black solid;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+  margin: 0% 40% 0% 40%;
+  font-size: 1em;
+}
+
+#start:hover {
+  background: grey;
+  color: white;
+}
+
+#Questions img {
+  width: 40%;
+  height: 40%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.Answer {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  font: 15px;
+  width: 100vh;
+  margin: 0 auto;
+}
+
+.option {
+  color: black;
+  border: 0.1em solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 5em;
+  height: 30px;
+}
+
+.option:hover {
+  background-color: black;
+  color: white;
+}
+
+.restart {
+  color: black;
+  padding: 4%;
+  margin: 0% 35% 0% 35%;
+  font-size: 1em;
+  border: black solid;
+  display: block;
+}
+
+.restart:hover {
+  background: grey;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  font-size: large;
+}
